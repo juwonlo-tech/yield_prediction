@@ -15,8 +15,9 @@ Analysis and Prediction Models for crop yield in 101 countries using R
 
 ## Correlation Heatmap
 The correlation between the variables is visualized below
-<img width="646" alt="Screenshot 2025-01-25 at 4 41 24 PM" src="https://github.com/user-attachments/assets/50f2ded4-7c82-44f3-81f3-c130f93e0294" />
-Significant correlations observed between Country and rainfall and pesticide use. 
+<img width="930" alt="Screenshot 2025-01-25 at 5 51 23 PM" src="https://github.com/user-attachments/assets/8f2da9d5-3204-44d1-aaad-eb87c9c589e3" />
+
+Significant correlations can be observed between country and rainfall, similar to country and pesticide use. 
 There is also good correlation between crop and yield.
 
 # Data Analysis
