@@ -1,6 +1,7 @@
 # yield_prediction
 Analysis and Prediction Models for crop yield in 101 countries using R 
 
+## Overview of the Dataset
 <img width="646" alt="Screenshot 2025-01-25 at 4 43 30 PM" src="https://github.com/user-attachments/assets/e30d3726-c2a1-4a75-8b97-c43e73773fe6" />
 
 ## Numerical Features- 
@@ -9,7 +10,6 @@ Analysis and Prediction Models for crop yield in 101 countries using R
 - average_rain_fall_mm_per_year: The average rainfall per year is approximately 1149 mm/year, with the least rainfall being 51 mm/year and the highest is 3240 mm/year.
 - pesticides_tonnes: The average pesticides used in tonnes is 37077 tonnes, with the minimum being 0 and maximum as 367778 tonnes. 
 - avg_temp: The lowest average temperature recorded was 1.30 and the highest was 30.65.
-
 
 <img width="665" alt="Screenshot 2025-01-25 at 4 38 45 PM" src="https://github.com/user-attachments/assets/86d853bd-9088-412b-a77a-f2e7398acae7" />
 
