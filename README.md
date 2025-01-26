@@ -4,17 +4,20 @@ Analysis and Prediction Models for crop yield in 101 countries using R
 ## Overview of the Dataset
 <img width="646" alt="Screenshot 2025-01-25 at 4 43 30 PM" src="https://github.com/user-attachments/assets/e30d3726-c2a1-4a75-8b97-c43e73773fe6" />
 
-## Numerical Features- 
+Numerical Features:
 - Year: The data spans years 1990 to 2013
 - hg.ha_yield: The average crop production yield is 77053 hectograms per hectare, the least yield is 50 hectograms per hectare and the highest is 501412 hectograms per hectare.
 - average_rain_fall_mm_per_year: The average rainfall per year is approximately 1149 mm/year, with the least rainfall being 51 mm/year and the highest is 3240 mm/year.
 - pesticides_tonnes: The average pesticides used in tonnes is 37077 tonnes, with the minimum being 0 and maximum as 367778 tonnes. 
 - avg_temp: The lowest average temperature recorded was 1.30 and the highest was 30.65.
 
-<img width="665" alt="Screenshot 2025-01-25 at 4 38 45 PM" src="https://github.com/user-attachments/assets/86d853bd-9088-412b-a77a-f2e7398acae7" />
+## Cleaned Data Overview
+The data cleaning process involved removing the index column, renaming columns for clarity, reviewing data, and checking for missing value.
+<img width="814" alt="Screenshot 2025-01-25 at 5 56 06 PM" src="https://github.com/user-attachments/assets/1e50c931-6035-49a5-9e04-f16d4a3a9b5e" />
 
 ## Correlation Heatmap
-The correlation between the variables is visualized below
+A copy of the dataset was made and the categorical values were encoded for correlation analysis.
+The correlation between the variables is visualized below:
 <img width="930" alt="Screenshot 2025-01-25 at 5 51 23 PM" src="https://github.com/user-attachments/assets/8f2da9d5-3204-44d1-aaad-eb87c9c589e3" />
 
 Significant correlations can be observed between country and rainfall, similar to country and pesticide use. 
