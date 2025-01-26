@@ -97,7 +97,7 @@ The XGBoost model performs the best across all evaluation metrics (lowest RMSE a
 
 The XGBoost model can therefore be deployed to predict the yield of crops based on temperature, pesticides use, and volume of rainfall.
 
-
+The full script is available on: 
 
 
 
