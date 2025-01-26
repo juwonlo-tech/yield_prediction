@@ -1,7 +1,10 @@
 # yield_prediction
 Analysis and Prediction Models for crop yield in 101 countries using R 
 
-## Overview of the Dataset
+## Peek into the Dataset
+<img width="814" alt="Screenshot 2025-01-25 at 6 06 27 PM" src="https://github.com/user-attachments/assets/28fec5ba-bcfa-4c1b-a033-d00fa8a1bea9" />
+
+### Statistical Summary of the Data
 <img width="646" alt="Screenshot 2025-01-25 at 4 43 30 PM" src="https://github.com/user-attachments/assets/e30d3726-c2a1-4a75-8b97-c43e73773fe6" />
 
 Numerical Features:
