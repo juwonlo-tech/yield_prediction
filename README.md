@@ -67,7 +67,7 @@ However, the correlation is not perfect (0.727445967182818), so there may be oth
 Yams averagely require the largest quantity of pesticides, while plantains and others require the least.
 
 ## What is the Volume of Crops Produced? 
-<img width="925" alt="Screenshot 2025-01-25 at 5 14 23 PM" src="https://github.com/user-attachments/assets/e2c191b0-b4f9-496a-aca4-987b28627d9e" />
+<img width="920" alt="Screenshot 2025-01-27 at 11 18 48 PM" src="https://github.com/user-attachments/assets/119e2c11-6b7f-4297-91e8-654c08c1cadd" />
 Potatoes, Cassava, and Sweet potatoes are the crops with the highest yield.
 
 ## Which Temperature Improves Yield for Crops?
