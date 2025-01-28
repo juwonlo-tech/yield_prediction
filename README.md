@@ -46,13 +46,15 @@ There is also negative correlation between crop and yield. There is positive cor
 <img width="920" alt="Screenshot 2025-01-27 at 11 10 42 PM" src="https://github.com/user-attachments/assets/7cc7c06e-7616-4310-a70f-7266822e2876" />
 
 ## Which country used the most and least pesticides in their production?
-<img width="929" alt="Screenshot 2025-01-25 at 5 05 25 PM" src="https://github.com/user-attachments/assets/93d44f8c-7133-4a29-864a-bc92a199ab66" />
+<img width="952" alt="Screenshot 2025-01-28 at 11 41 37 AM" src="https://github.com/user-attachments/assets/a342dd6d-d232-4b2c-a7a1-7f313165acbd" />
+
 
 ## What does the rainfall distribution look like?
-<img width="935" alt="Screenshot 2025-01-25 at 5 06 55 PM" src="https://github.com/user-attachments/assets/5cf6704c-34ee-4803-88f9-2a350a94a500" />
+<img width="952" alt="Screenshot 2025-01-28 at 11 40 50 AM" src="https://github.com/user-attachments/assets/6ce697cf-4351-469a-a43c-2775c69e4e44" />
 
-##Which countries produced the most and least produces?
-<img width="935" alt="Screenshot 2025-01-25 at 5 08 02 PM" src="https://github.com/user-attachments/assets/6f9cffee-96f2-4ae4-b106-e3b327879d3c" />
+## Which countries produced the most and least produces?
+<img width="952" alt="Screenshot 2025-01-28 at 11 40 24 AM" src="https://github.com/user-attachments/assets/3134f6e5-2ed2-4648-bfbb-bd3506ef4330" />
+
 
 ## How does Pesticide Use Affect Yield in Various Countries?
 <img width="935" alt="Screenshot 2025-01-25 at 5 09 37 PM" src="https://github.com/user-attachments/assets/9c07c6c6-fa4a-4bc8-be80-96342dd30e4c" />
