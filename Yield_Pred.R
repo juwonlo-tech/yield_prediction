@@ -1,5 +1,8 @@
 # Load required libraries
+#install.packages("")
 library(tidyverse)
+library(hrbrthemes)
+library(viridis)
 library(reshape2)  # For melting correlation matrices
 library(RColorBrewer)  # For color palettes
 library(GGally)  # For pair plots
@@ -37,7 +40,6 @@ data <- data[, -1]
 # Check for missing values
 colSums(is.na(data))  
 
-
 # View cleaned data
 head(data)
 
@@ -69,8 +71,8 @@ ggplot(cor_melted, aes(x = Var1, y = Var2, fill = value)) +
         axis.text.y = element_text(angle = 45, hjust = 1))
 
 # Comment on correlations:
-# Significant correlations observed between Country and rainfall and pesticide use. 
-# There is also good correlation between crop and yield.
+# Strong negative correlations observed between Country and rainfall, as well as Country and pesticide use. 
+# There is also negative correlation between crop and yield. There is positive correlation between average rainfall and average temperature.
 
 # What is the frequency of values in each  category?
 # Store plots in a list
@@ -79,12 +81,12 @@ plots <- list()
 for (col in colnames(data)) {
   if (is.numeric(data[[col]])) {
     plots[[col]] <- ggplot(data, aes(.data[[col]])) +
-      geom_histogram(binwidth = 30, fill = "blue", color = "black", alpha = 0.7) +
+      geom_histogram(binwidth = 30, fill = "skyblue", color = "black", alpha = 0.7) +
       labs(title = paste("Histogram of", col), x = col, y = "Frequency") +
       theme_minimal()
   } else {
     plots[[col]] <- ggplot(data, aes(.data[[col]])) +
-      geom_bar(fill = "blue", color = "black", alpha = 0.7) +
+      geom_bar(fill = "skyblue", color = "black", alpha = 0.7) +
       labs(title = paste("Bar Plot of", col), x = col, y = "Frequency") +
       theme_minimal()
   }
@@ -136,13 +138,15 @@ for (var in variables) {
   # Plot
   plot <- ggplot(combined, aes(x = reorder(Country, !!sym(var)), y = !!sym(var), fill = rank_type)) +
     geom_bar(stat = "identity", position = "dodge") +
+    scale_fill_viridis(option="plasma", discrete = TRUE, alpha=0.6) +
+    
     coord_flip() +
     labs(
       title = paste("Top 10 and Bottom 10 Countries by", var),
       x = "Country",
       y = var
     ) +
-    theme_minimal() +
+    theme_ipsum() +
     theme(legend.position = "bottom") +
     # Adding annotations for each bar
     geom_text(
@@ -198,11 +202,17 @@ crop_pesticides <- data %>%
   summarise(avg_pesticides = mean(pesticides_tonnes, na.rm = TRUE)) %>%
   arrange(desc(avg_pesticides))
 
-ggplot(crop_pesticides, aes(x = reorder(Crop, avg_pesticides), y = avg_pesticides)) +
-  geom_bar(stat = "identity", fill = "skyblue") +
+ggplot(crop_pesticides, aes(x = reorder(Crop, avg_pesticides), y = avg_pesticides, fill = factor(vs))) +
+  geom_bar(stat = "identity", alpha = 0.6) +
+  scale_fill_viridis(discrete = TRUE, alpha = 0.6) +
   coord_flip() +
-  labs(title = "Average Pesticides Used per Crop", x = "Crop", y = "Pesticides (Tonnes)") +
-  theme_minimal()
+  labs(
+    title = "Average Pesticides Used per Crop",
+    x = "Crop",
+    y = "Pesticides (Tonnes)",
+    fill = "Variable") +
+  theme_ipsum()
+
 
 # Yams averagely require the most amount of pesticides, while plantains and others require the least.
 
@@ -210,7 +220,7 @@ ggplot(crop_pesticides, aes(x = reorder(Crop, avg_pesticides), y = avg_pesticide
 ggplot(data, aes(x = Crop, y = hg.ha_yield, fill = Crop)) +
   geom_boxplot() +
   labs(title = "Crop Yield Distribution by Crop", x = "Crop", y = "Yield (Hg/Ha)") +
-  theme_minimal() +
+  theme_ipsum() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 # Which Temperature Improves Yield for Crops?
