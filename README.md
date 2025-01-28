@@ -23,8 +23,9 @@ A copy of the dataset was made and the categorical values were encoded for corre
 The correlation between the variables is visualized below:
 <img width="930" alt="Screenshot 2025-01-25 at 5 51 23 PM" src="https://github.com/user-attachments/assets/8f2da9d5-3204-44d1-aaad-eb87c9c589e3" />
 
-Significant correlations can be observed between country and rainfall, similar to country and pesticide use. 
-There is also good correlation between crop and yield.
+Strong negative correlations observed between Country and rainfall, as well as Country and pesticide use. 
+There is also negative correlation between crop and yield. There is positive correlation between average rainfall and average temperature.
+
 
 # Data Analysis
 ## What is the frequency of values in each category?
