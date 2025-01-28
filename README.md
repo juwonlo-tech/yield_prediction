@@ -42,7 +42,7 @@ There is also good correlation between crop and yield.
 <img width="926" alt="Screenshot 2025-01-25 at 5 00 00 PM" src="https://github.com/user-attachments/assets/92c1beab-c124-4168-bf53-8152281450d3" />
 
 ## Where are the hottest and coldest countries in the data?
-<img width="929" alt="Screenshot 2025-01-25 at 5 03 14 PM" src="https://github.com/user-attachments/assets/d77addd0-47d8-40e0-9662-ae3958902834" />
+<img width="920" alt="Screenshot 2025-01-27 at 11 10 42 PM" src="https://github.com/user-attachments/assets/7cc7c06e-7616-4310-a70f-7266822e2876" />
 
 ## Which country used the most and least pesticides in their production?
 <img width="929" alt="Screenshot 2025-01-25 at 5 05 25 PM" src="https://github.com/user-attachments/assets/93d44f8c-7133-4a29-864a-bc92a199ab66" />
